@@ -22,3 +22,7 @@ Aula 4 - Estrutura IF e Laços de Repetição
     "itens" é a variavel com o array dos itens, e item é a variavel utilizada para pegar os objetos de dentro do array de "itens"
 
     Bem resumidamente esta aula apenas ensinou a condição v-if e o v-for.
+
+Aula 5 - Fazendo uma função simples no Vue JS
+
+    Durante a aula foi feito um botão que muda de status para verdadeiro e falso, alterando os botões que sao apresentado na visualização. E foi utilizado o methods para criar a função do botão.
