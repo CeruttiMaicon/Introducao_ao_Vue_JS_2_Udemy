@@ -1,12 +1,16 @@
-Aula 1 - Introdução ao Vue
+Aula 1 - Introdução ao Curso
+
+    O que é o Vue JS e como vamos aborda-lo nas aulas.
+
+Aula 2 - Introdução ao Vue
 
     A aula foi somente de como trazer as dependencias do Vue e fazer um print inicial na tela utilizando esta tecnologia.
 
-Aula 2 - Utilizando o V-Bind
+Aula 3 - Utilizando o V-Bind
 
     O V-BIND: faz com que o atributo do HTML esteja manipulado de acordo com as configuracoes passadas no DATA do Vue JS
     
-Aula 3 - Estrutura IF e Laços de Repetição
+Aula 4 - Estrutura IF e Laços de Repetição
 
     Dentro do Vue a estrutura if é utilizada com a seguinte sintaxe
         <p v-if="teste  logico"> Se a condição é verdadeira mostra esse paragrafo, se não, não mostra </p>
