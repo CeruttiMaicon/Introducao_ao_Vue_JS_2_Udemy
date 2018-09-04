@@ -26,3 +26,7 @@ Aula 4 - Estrutura IF e Laços de Repetição
 Aula 5 - Fazendo uma função simples no Vue JS
 
     Durante a aula foi feito um botão que muda de status para verdadeiro e falso, alterando os botões que sao apresentado na visualização. E foi utilizado o methods para criar a função do botão.
+
+Aula 6 - Utilizando o v-model
+
+    Foi criado um campo input que recebia uma variavel passada pelo usuario (o nome), e depois era escrito em tela em tempo real, o javascript recebe a variavel e depois as coloca em tela.
