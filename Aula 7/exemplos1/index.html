@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Introdução ao Vue JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="main.js"></script>
+    <!-- Chamada para a utilizacao do Vue JS -->
+    
+    <script src="https:unpkg.com/vue"></script>
+</head>
+<body>
+
+    <div id="app" >
+        {{ msg }}
+        <!-- O V-BIND: faz com que o atributo que esteja sendo trabalhado seja dinamico -->
+        <p v-bind:title="titulo">Teste com titulo</p>
+        <p v-if="condicao">Teste com IF</p>
+        <p v-for="registro in registros">{{registro.titulo}}</p>
+        <!-- Se clicou for falso mostra este botao -->
+        <button v-if="!clicou" v-on:click="usuarioClikou">Salvar</button>
+        <!-- Senão mostra esse -->
+        <button v-if="clicou" v-on:click="usuarioClikou">Aguarde...</button>
+        <!-- v-model eh utilizado para a manipulação dos dados -->
+        <p>
+            <input type="text" v-model="usuario.nome">
+        </p>
+        
+        <p>Nome: {{usuario.nome}}</p>
+    </div>
+    <script type="text/javascript">
+        var app = new Vue({
+            el:"#app",
+            //As variaveis criadas aqui seram renderizadas dentro do corpo do HTML
+            // DATA cria as variaveis com dados
+            data:{
+                msg: 'Iniciando com Vue JS',
+                titulo: 'Teste com V:Bind',
+                condicao: false,
+                registros: [
+                    {titulo: 'registro1'},
+                    {titulo: 'registro2'},
+                    {titulo: 'registro3'},
+                    {titulo: 'registro4'},
+                    {titulo: 'registro5'},
+                    {titulo: 'registro6'}
+                ],
+                clicou: false,
+                usuario:{nome: ""}
+            },
+            // Criando uma funcao
+            methods: {
+                usuarioClikou: function() {
+                    this.clicou = !this.clicou;
+                }
+            }
+        });
+    </script>
+
+    
+</body>
+</html>

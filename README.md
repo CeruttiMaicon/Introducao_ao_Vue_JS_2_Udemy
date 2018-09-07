@@ -30,3 +30,7 @@ Aula 5 - Fazendo uma função simples no Vue JS
 Aula 6 - Utilizando o v-model
 
     Foi criado um campo input que recebia uma variavel passada pelo usuario (o nome), e depois era escrito em tela em tempo real, o javascript recebe a variavel e depois as coloca em tela.
+
+Aula 7 - Criando componentes Vue
+
+    Foi criado um componente de titulo com o Vue e feito a chamada dentro da div do App do Vue
