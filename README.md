@@ -38,3 +38,11 @@ Aula 7 - Criando componentes Vue
 Aula 8 - Passando parametros com o PROPS
 
     Trabalhando com os componentes do Vue e utilizando os pros para passar os parametros utilizando o PROPS do Vue Js
+
+Aula 9 - Utilizando o v-model 
+
+    Utilizando o v-model é possivel modificar os valores utilizados dentro do Vue
+
+    V-bind = Utiliado para trazer valores dinamicos
+
+    V-model = Utilizado para fazer uma licitação
