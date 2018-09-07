@@ -46,3 +46,7 @@ Aula 9 - Utilizando o v-model
     V-bind = Utiliado para trazer valores dinamicos
 
     V-model = Utilizado para fazer uma licitação
+
+Aula 10 - Criando um componente dinamico de tabela
+
+    Foi criado um componente em Vue JS, o componente é uma tabela que recebe um array em json que é dinamico dentro da TD da tabela, foi utilizado um f-vor na TR e mais um f-vor na TD. Assim fazendo o elemento ficar dinamico com os dados do Json.
