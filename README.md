@@ -56,3 +56,19 @@ Aula 11 - Ensinando mais alguns recursos do Vue JS
     O v-once faz com que o componente não mude mais de valor, depois que ele ja foi renderizado
 
     O v-html faz com que o objeto ou variavel que foi instaciado seja compilado para aparecer na isualização do componente
+
+Aula 12 - Usando Filtros
+
+    Metodos em javascript para formatar um valor númerico
+    Metodo do javascript para aredondar numeros
+	.toFixed(2)
+
+    Metodo Replace, utiliado para fazer substituições em strings
+        .replace('.', ',')
+    Aqui ele substituiu o ponto pela virgula
+
+
+    Utilização de filtros
+        Os filtros são utilizados como funções para fazer o tratamento de alguns valores, ou fazer filtros.
+
+    Utilizando as funções do Vue o parametro "filters" é utilizado para fazer essas funções em javascript
