@@ -34,3 +34,7 @@ Aula 6 - Utilizando o v-model
 Aula 7 - Criando componentes Vue
 
     Foi criado um componente de titulo com o Vue e feito a chamada dentro da div do App do Vue
+
+Aula 8 - Passando parametros com o PROPS
+
+    Trabalhando com os componentes do Vue e utilizando os pros para passar os parametros utilizando o PROPS do Vue Js
