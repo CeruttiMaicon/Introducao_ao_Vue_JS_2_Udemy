@@ -50,3 +50,9 @@ Aula 9 - Utilizando o v-model
 Aula 10 - Criando um componente dinamico de tabela
 
     Foi criado um componente em Vue JS, o componente é uma tabela que recebe um array em json que é dinamico dentro da TD da tabela, foi utilizado um f-vor na TR e mais um f-vor na TD. Assim fazendo o elemento ficar dinamico com os dados do Json.
+
+Aula 11 - Ensinando mais alguns recursos do Vue JS
+
+    O v-once faz com que o componente não mude mais de valor, depois que ele ja foi renderizado
+
+    O v-html faz com que o objeto ou variavel que foi instaciado seja compilado para aparecer na isualização do componente
