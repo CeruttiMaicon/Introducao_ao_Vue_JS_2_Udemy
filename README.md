@@ -102,4 +102,6 @@ Aula 15 - Começando a trabalhar com Formularios
 
     style:"white-space: pre-line"
     
-	
+Aula 16 - Formulários - Checkbox
+
+    Utilizando o checkbox em um formulario utilizando o Vue JS, e mostrando como fazer com que o checkbox iniciasse marcado ou não, e alterando o texto do mesmo elemento durante o click no checkbox.
