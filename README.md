@@ -105,3 +105,7 @@ Aula 15 - Começando a trabalhar com Formularios
 Aula 16 - Formulários - Checkbox
 
     Utilizando o checkbox em um formulario utilizando o Vue JS, e mostrando como fazer com que o checkbox iniciasse marcado ou não, e alterando o texto do mesmo elemento durante o click no checkbox.
+
+Aula 17 - Formulários - Multiplos Checkbox
+
+    Mostrando como funciona o multiplo checkbox e visualizando a montagem dos checks dentro de um array "notificações"
