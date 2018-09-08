@@ -117,3 +117,10 @@ Aula 18 - Formulários - Radio
 Aula 19 - Select e Multiplos Selects
 
     Fazendo select e multiplos selects e mostrando os resultados em um array utilizando o v-model.
+
+Aula 20 - Formularios Lazy
+
+    O Lazy é utilizado para renderizar um campo somente após o usuario sair do campo input text, clicando fora ou em um botão. 
+    Este atributo é chamado como função do v-model, da seguinte maneira:
+
+    v-model.lazy="variavel"
