@@ -113,3 +113,7 @@ Aula 17 - Formulários - Multiplos Checkbox
 Aula 18 - Formulários - Radio
 
     Foi feito um botão de rádio mostrando a seleção dos sexos masculino e feminino. Foi utilizado o v-model para fazer com que o dado de sexo recebesse o valor "M" ou "F", de masculino e feminino respectivamente.
+
+Aula 19 - Select e Multiplos Selects
+
+    Fazendo select e multiplos selects e mostrando os resultados em um array utilizando o v-model.
