@@ -95,4 +95,11 @@ Aula 14 - Dicas de utilização Methods e Computed + Observadores
 
 	Observadores são funções em javascript que são chamadas em tempo real, no tempo de interação do usuario. Isto é utilizado usando o "watch"
 
+Aula 15 - Começando a trabalhar com Formularios
+
+    Foi feito o campo de texto input, com o v-model para mostrar o titulo alterando em tempo de digitação.
+    E também foi criado um textarea onde foi demonstrado o mesmo efeito, porém foi adicionado um style para fazer a quebra de linha, deixando o texto formatado igual ao digitado dentro do campo do textarea.
+
+    style:"white-space: pre-line"
+    
 	
