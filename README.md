@@ -108,4 +108,8 @@ Aula 16 - Formulários - Checkbox
 
 Aula 17 - Formulários - Multiplos Checkbox
 
-    Mostrando como funciona o multiplo checkbox e visualizando a montagem dos checks dentro de um array "notificações"
+    Mostrando como funciona o multiplo checkbox e visualizando a montagem dos checks dentro de um array "notificações".
+
+Aula 18 - Formulários - Radio
+
+    Foi feito um botão de rádio mostrando a seleção dos sexos masculino e feminino. Foi utilizado o v-model para fazer com que o dado de sexo recebesse o valor "M" ou "F", de masculino e feminino respectivamente.
