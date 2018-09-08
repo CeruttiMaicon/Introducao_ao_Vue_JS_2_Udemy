@@ -128,4 +128,7 @@ Aula 20 - Formularios Lazy
 Aula 21 - Number
 
     Fazendo uma entrada input tipo number, e forçando ela a continuar do tipo number com o v-model.number
-    
+
+Aula 22 - Iniciando projeto com Vue JS de forma profissional
+
+    Introdução a como iniciar um projeto em Vue Js de forma profissional, e mostrando uma amostra do próximo projeto a ser executado durante o curso.
