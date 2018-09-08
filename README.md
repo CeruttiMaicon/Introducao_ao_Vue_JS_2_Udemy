@@ -72,3 +72,15 @@ Aula 12 - Usando Filtros
         Os filtros são utilizados como funções para fazer o tratamento de alguns valores, ou fazer filtros.
 
     Utilizando as funções do Vue o parametro "filters" é utilizado para fazer essas funções em javascript
+
+Aula 13 - Metodos de funções do Vue Js
+
+	Durante a aula foi utilizado um methods e um computed para fazer a soma dos valores passados dentro do array.
+	Computado
+		Metodos computados não precisam ser chamados como funções (com o "Nomefunção()" paratenses no final da chamada da função ).
+		Apresentam um maior desempenho e só são executados uma vez no código. O computed deve ser mais utilizados para 
+	valores que mudam toda hora, para obter resultados calculados. Além disso, armazena os dados em cache até que seja alterado. Quando o Vue é instanciado, as propriedades calculadas são convertidas em uma propriedade. Portanto, você faz referência a uma propriedade computada como se fosse uma propriedade de dados.
+
+	Metodos
+		Também executam funções do javascript, porém tem um desempenho muito pior, por um metodo ser chamado varias vezes. Methods
+	devem ser utilizados para funções do usuario. Se recomenda utilizar methods para criar funções para o usuario. Um método não faz nada a menos que você o chame. Como todas as funções javascript, aceita parâmetros e será reavaliado sempre que for chamado. Depois disso, eles não podem armazenar valores em cache. Além disso, você deve usar métodos quando quiser passar um valor para modificá-lo. 
