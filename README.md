@@ -84,3 +84,14 @@ Aula 13 - Metodos de funções do Vue Js
 	Metodos
 		Também executam funções do javascript, porém tem um desempenho muito pior, por um metodo ser chamado varias vezes. Methods
 	devem ser utilizados para funções do usuario. Se recomenda utilizar methods para criar funções para o usuario. Um método não faz nada a menos que você o chame. Como todas as funções javascript, aceita parâmetros e será reavaliado sempre que for chamado. Depois disso, eles não podem armazenar valores em cache. Além disso, você deve usar métodos quando quiser passar um valor para modificá-lo. 
+
+Aula 14 - Dicas de utilização Methods e Computed + Observadores
+	Methods
+	Methods devem ser utilizados para as funções do usuario, o methodo pode ser utilizado uma vez, ou não.
+
+	Computed
+	Computed deve ser utilizado para mostrar soluções, mostrar uma resposta enquanto a sua aplicação esta renderizando.
+
+	Observadores são funções em javascript que são chamadas em tempo real, no tempo de interação do usuario. Isto é utilizado usando o "watch"
+
+	
