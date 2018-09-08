@@ -86,6 +86,7 @@ Aula 13 - Metodos de funções do Vue Js
 	devem ser utilizados para funções do usuario. Se recomenda utilizar methods para criar funções para o usuario. Um método não faz nada a menos que você o chame. Como todas as funções javascript, aceita parâmetros e será reavaliado sempre que for chamado. Depois disso, eles não podem armazenar valores em cache. Além disso, você deve usar métodos quando quiser passar um valor para modificá-lo. 
 
 Aula 14 - Dicas de utilização Methods e Computed + Observadores
+
 	Methods
 	Methods devem ser utilizados para as funções do usuario, o methodo pode ser utilizado uma vez, ou não.
 
