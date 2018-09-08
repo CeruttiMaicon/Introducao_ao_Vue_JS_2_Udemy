@@ -124,3 +124,8 @@ Aula 20 - Formularios Lazy
     Este atributo é chamado como função do v-model, da seguinte maneira:
 
     v-model.lazy="variavel"
+
+Aula 21 - Number
+
+    Fazendo uma entrada input tipo number, e forçando ela a continuar do tipo number com o v-model.number
+    
