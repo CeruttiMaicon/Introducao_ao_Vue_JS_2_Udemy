@@ -163,5 +163,10 @@ Aula 29 - Criando o componente de Categoria
 
     Depois de criado o componente de categoria ele foi importado para o elemento principal onde seus methods foram novamente reajustados para funcionar como elementos mais dinamicos, com o $ref que foi utilizado na DIV para remover a marcação de ID.
 
+Aula 30 - Criando o componente de Filme
+
+    Foi criado o componente de filme e adicionado a sua importação dentro da categoria, e feito o props para receber a imagem e o titulo.
+    
+
 
 
