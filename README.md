@@ -159,3 +159,9 @@ Aula 28 - Criando componentes
 
     Foi criado um componente de teste, e foi demonstrado como faz para importar esse elemento dentro do primeiro elemento do Vue Js, para fazer a utilização dele no elemento App.vue.
 
+Aula 29 - Criando o componente de Categoria
+
+    Depois de criado o componente de categoria ele foi importado para o elemento principal onde seus methods foram novamente reajustados para funcionar como elementos mais dinamicos, com o $ref que foi utilizado na DIV para remover a marcação de ID.
+
+
+
