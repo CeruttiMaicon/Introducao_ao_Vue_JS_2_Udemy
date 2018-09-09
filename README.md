@@ -147,3 +147,6 @@ Aula 25 - Baixando o projeto de modelo do NetFlix
 
     Foi baixado ao projeto os arquivos de projeto de exemplo do netflix, para o usarmos como base para fazer a nossa implementação em Vue Js. E transformar os elementos do projeto cópiado para elementos do Vue Js.
 
+Aula 26 - Criando o componente principal
+
+    Foi pegado toda a folha de estilo para fazer o templete do netflix com base no projeto baixado anteriormente, e logo após isso o componente de slider foi criado, para fazer com que a página tivesse toda uma interação. Os botões ainda não possuem nenhuma função em Javascript.
