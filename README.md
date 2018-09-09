@@ -142,3 +142,8 @@ Aula 24 - Entendendo a estrutura do Vue no projeto
     Aqui temos toda a explicação do projeto e como funciona a arquitetura de pastas do Vue JS, e foi feito um pequeno ajuste no componente inicial de inicio do projeto, e alterado a linguagem padrão da página. 
     E também para utilizar o Vue Js e deixar ele compilando em tempo real de edição é utilizado o seguinte comando:
     $ npm run dev
+
+Aula 25 - Baixando o projeto de modelo do NetFlix
+
+    Foi baixado ao projeto os arquivos de projeto de exemplo do netflix, para o usarmos como base para fazer a nossa implementação em Vue Js. E transformar os elementos do projeto cópiado para elementos do Vue Js.
+
