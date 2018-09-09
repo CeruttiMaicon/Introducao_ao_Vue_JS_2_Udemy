@@ -136,5 +136,9 @@ Aula 22 - Iniciando projeto com Vue JS de forma profissional
 Aula 23 - Instalação do Vue com o CLI
 
     Foi instalado o vue com o CLI seguindo a documentação oficial do Vue, e montamos o projeto de acordo com o tutorial da udemy.
-
     
+Aula 24 - Entendendo a estrutura do Vue no projeto
+
+    Aqui temos toda a explicação do projeto e como funciona a arquitetura de pastas do Vue JS, e foi feito um pequeno ajuste no componente inicial de inicio do projeto, e alterado a linguagem padrão da página. 
+    E também para utilizar o Vue Js e deixar ele compilando em tempo real de edição é utilizado o seguinte comando:
+    $ npm run dev
