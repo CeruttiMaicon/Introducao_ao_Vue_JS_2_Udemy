@@ -154,3 +154,8 @@ Aula 26 - Criando o componente principal
 Aula 27 - Fazendo a função de rolagem no carrosel do Netflix
 
     Foi explicado a necessidade de se utilizar os methods para realizar esta função do JavaScript, e como montalos adaptando-se ao Vue JS.
+
+Aula 28 - Criando componentes
+
+    Foi criado um componente de teste, e foi demonstrado como faz para importar esse elemento dentro do primeiro elemento do Vue Js, para fazer a utilização dele no elemento App.vue.
+

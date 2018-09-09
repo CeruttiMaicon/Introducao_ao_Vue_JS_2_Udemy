@@ -1,9 +1,9 @@
 <template>
     <div class="contain">
         <div class="slider">
-            <h3>Ação</h3>
-        
+            <teste titulo="Categoria"></teste>
 
+    
             <span v-on:mouseover="scrollEsquerda()" v-on:mouseout="clearScroll()" class="handle handlePrev active">
                 <i class="fa fa-caret-left" aria-hidden="true"></i>
             </span>
@@ -341,8 +341,13 @@
 </template>
 
 <script>
+
+import teste from './componentes/Teste.vue';
 export default {
     name: 'app',
+    components: {
+        teste
+    },
     data () {
         return {
           nomeProjeto: 'Netflix com Vue',
