@@ -132,3 +132,9 @@ Aula 21 - Number
 Aula 22 - Iniciando projeto com Vue JS de forma profissional
 
     Introdução a como iniciar um projeto em Vue Js de forma profissional, e mostrando uma amostra do próximo projeto a ser executado durante o curso.
+
+Aula 23 - Instalação do Vue com o CLI
+
+    Foi instalado o vue com o CLI seguindo a documentação oficial do Vue, e montamos o projeto de acordo com o tutorial da udemy.
+
+    
