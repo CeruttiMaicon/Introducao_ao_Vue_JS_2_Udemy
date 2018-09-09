@@ -4,7 +4,7 @@
             <h3>Ação</h3>
         
 
-            <span  class="handle handlePrev active">
+            <span v-on:mouseover="scrollEsquerda()" v-on:mouseout="clearScroll()" class="handle handlePrev active">
                 <i class="fa fa-caret-left" aria-hidden="true"></i>
             </span>
 
@@ -333,7 +333,7 @@
                 </div>
             </div>
 
-            <span onmouseover="scrollDireita()" onmouseout="clearScroll()"  class="handle handleNext active">
+            <span v-on:mouseover="scrollDireita()" v-on:mouseout="clearScroll()" class="handle handleNext active">
                 <i class="fa fa-caret-right" aria-hidden="true"></i>
             </span>
         </div>
@@ -345,7 +345,22 @@ export default {
     name: 'app',
     data () {
         return {
-          nomeProjeto: 'Netflix com Vue'
+          nomeProjeto: 'Netflix com Vue',
+          intervalo: null
+        }
+    },
+    methods: {
+
+        scrollDireita(){
+            this.intervalo = setInterval(function(){ document.getElementById('scroller').scrollLeft += 1 }  , 5);
+        },
+
+        scrollEsquerda(){
+            this.intervalo = setInterval(function(){ document.getElementById('scroller').scrollLeft -= 1 }  , 5);
+        },
+
+        clearScroll(){
+            clearInterval(this.intervalo);
         }
     }
 }

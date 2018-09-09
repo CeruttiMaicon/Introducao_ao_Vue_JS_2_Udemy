@@ -150,3 +150,7 @@ Aula 25 - Baixando o projeto de modelo do NetFlix
 Aula 26 - Criando o componente principal
 
     Foi pegado toda a folha de estilo para fazer o templete do netflix com base no projeto baixado anteriormente, e logo após isso o componente de slider foi criado, para fazer com que a página tivesse toda uma interação. Os botões ainda não possuem nenhuma função em Javascript.
+
+Aula 27 - Fazendo a função de rolagem no carrosel do Netflix
+
+    Foi explicado a necessidade de se utilizar os methods para realizar esta função do JavaScript, e como montalos adaptando-se ao Vue JS.
