@@ -171,6 +171,8 @@ Aula 31 - Efeito no componente de Filme
 
     Aqui aplicamos um efeito de zoom ao clicar no elemento do filme, e fazer ele mudar com o stylo passado.
     
+Aula 32 - Lista de Registros com componentes dinamicos
 
+    Agora todos os componentes são dinamicos e eles funcionam de acordo com o array passado em json pelo app. Assim conseguimos passar todos os filmes pertencentes a uma categoria.
 
 
