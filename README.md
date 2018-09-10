@@ -166,6 +166,10 @@ Aula 29 - Criando o componente de Categoria
 Aula 30 - Criando o componente de Filme
 
     Foi criado o componente de filme e adicionado a sua importação dentro da categoria, e feito o props para receber a imagem e o titulo.
+
+Aula 31 - Efeito no componente de Filme
+
+    Aqui aplicamos um efeito de zoom ao clicar no elemento do filme, e fazer ele mudar com o stylo passado.
     
 
 
