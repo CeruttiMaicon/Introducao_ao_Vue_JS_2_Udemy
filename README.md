@@ -179,4 +179,16 @@ Aula 33 - Ciclo de vida dos componentes
 
     Foi demonstrado que podem ser executadas determinadas ações dentro do ciclo de montagem das instancias dos objetos do Vue, (na sua documentação https://br.vuejs.org/v2/guide/instance.html), e que é possivel escolher em qual momento a ação pode ser executada dentro do ciclo de vida de uma instancia do Vue.
 
+Aula 34 - Criando API com Json-Serve
 
+    Criado uma API com o Json Serve (https://github.com/typicode/json-server) , com o comando:
+
+    $ npm install -g json-server
+
+    Depois disso foi criado o arquivo db.json na raiz do projeto, e logo em seguida rodado o comando:
+
+    $json-server --watch db.json
+
+    Assim iniciando o serviço de uma API, (este tipo de API é somente aconselhavel para fazer testes de desenvolvimento).
+
+    Dentro deste arquivo deve-se colocar o json que deseja se ter as informações por meio de uma URL. Entrando em http://localhost:3000 temos acesso a interface do Json Server, e assim temos todos os caminhos listados da nossa API.
