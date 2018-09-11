@@ -192,3 +192,11 @@ Aula 34 - Criando API com Json-Serve
     Assim iniciando o serviço de uma API, (este tipo de API é somente aconselhavel para fazer testes de desenvolvimento).
 
     Dentro deste arquivo deve-se colocar o json que deseja se ter as informações por meio de uma URL. Entrando em http://localhost:3000 temos acesso a interface do Json Server, e assim temos todos os caminhos listados da nossa API.
+
+Aula 35 - Requisição HTTP com Vue Js
+
+    Aqui instalamos o vue-resources para fazer a conexão com os dados da API utilizando o Vue Js, para fazer isso utilizei do comando:
+
+    $npm install vue-resource--save
+
+    Em seguida importamos o pacote baixado para o main.js do Vue, para que o Vue reconhece ele dentro do projeto e o utiliza-se (Netflix-Vue/src/min.js), em seguida adaptamos o projeto baseando-se no exemplo que existe na documentação do vue-resources, e fizemos a conexão dele com a nossa API local do Json Server. E o projeto agora esta conectando a API e mostrando os dados do Json.

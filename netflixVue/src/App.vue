@@ -14,58 +14,24 @@ export default {
     components: {
         Categoria
     },
+
+    beforeCreate() {
+      
+    },
+    created(){
+      this.$http.get('http://localhost:3000/categorias').then(res => {
+         
+          this.categorias = res.body
+      })
+    },
+    beforeMount(){
+
+    },
     data () {
         return {
           nomeProjeto: 'Netflix com Vue',
           intervalo: null,
-          categorias: [
-            {
-              "id": 1,
-              "titulo": "Terror",
-              "filmes": [
-                {
-                  "id":1,
-                  "titulo":"Need for Speed HAAAAAAAAAAAAAAAAAAAA",
-                  "imagem": "https://linuxcentro.com.br/wp-content/uploads/2015/02/need-for-speed-no-limits-800x500.jpg?w=700" 
-                },
-                {
-                  "id":2,
-                  "titulo":"It: A Coisa",
-                  "imagem": "http://br.web.img3.acsta.net/c_215_290/pictures/17/03/30/22/44/345288.jpg?w=700"  
-                },
-                {
-                  "id":3,
-                  "titulo":"It: A Coisa",
-                  "imagem": "http://br.web.img3.acsta.net/c_215_290/pictures/17/03/30/22/44/345288.jpg?w=700" 
-                },
-                {
-                  "id":4,
-                  "titulo":"It: A Coisa",
-                  "imagem": "http://br.web.img3.acsta.net/c_215_290/pictures/17/03/30/22/44/345288.jpg?w=700" 
-                },
-                {
-                  "id":5,
-                  "titulo":"It: A Coisa",
-                  "imagem": "http://br.web.img3.acsta.net/c_215_290/pictures/17/03/30/22/44/345288.jpg?w=700" 
-                },
-                {
-                  "id":6,
-                  "titulo":"It: A Coisa",
-                  "imagem": "http://br.web.img3.acsta.net/c_215_290/pictures/17/03/30/22/44/345288.jpg?w=700"  
-                },
-                {
-                  "id":7,
-                  "titulo":"It: A Coisa",
-                  "imagem": "http://br.web.img3.acsta.net/c_215_290/pictures/17/03/30/22/44/345288.jpg?w=700"  
-                },
-                {
-                  "id":8,
-                  "titulo":"It: A Coisa",
-                  "imagem": "http://br.web.img3.acsta.net/c_215_290/pictures/17/03/30/22/44/345288.jpg?w=700" 
-                },
-              ]
-            }
-          ],
+          categorias: [],
         }
     },
 }
