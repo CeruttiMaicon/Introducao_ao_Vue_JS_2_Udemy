@@ -208,3 +208,7 @@ Aula 35 - Requisição HTTP com Vue Js
 Aula 36 - Trabalhando com rotas no Vue
 
     Foi demonstrado como fazer o sistema de rotas somente utilizando o Vue Js de forma simplificada. Esta metodologia nao é utilizada, pois o proprio Vue aconselha a utilizar a biblioteca do vue-router para fazer esta função.
+
+Aula 37 - Vue-Router
+
+    Foi ensinado como fazer o download do pacote do vue-router, e como instalalo e importalo corretamente no sistema, e seguindo este link oficial do vue-router https://router.vuejs.org/guide/#javascript, temos algumas dicas de como utiliza-lo e algumas funcionalidades a mais que o vue-router oferece para o desenvolvimento.
