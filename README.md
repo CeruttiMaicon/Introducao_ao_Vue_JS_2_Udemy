@@ -200,3 +200,11 @@ Aula 35 - Requisição HTTP com Vue Js
     $npm install vue-resource--save
 
     Em seguida importamos o pacote baixado para o main.js do Vue, para que o Vue reconhece ele dentro do projeto e o utiliza-se (Netflix-Vue/src/min.js), em seguida adaptamos o projeto baseando-se no exemplo que existe na documentação do vue-resources, e fizemos a conexão dele com a nossa API local do Json Server. E o projeto agora esta conectando a API e mostrando os dados do Json.
+
+    Para inicir o serviço da API
+
+    $ json-server --watch db.json
+
+Aula 36 - Trabalhando com rotas no Vue
+
+    Foi demonstrado como fazer o sistema de rotas somente utilizando o Vue Js de forma simplificada. Esta metodologia nao é utilizada, pois o proprio Vue aconselha a utilizar a biblioteca do vue-router para fazer esta função.

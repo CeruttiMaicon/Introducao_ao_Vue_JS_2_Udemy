@@ -1,22 +1,22 @@
 <template>
     <div class="slider">
-    <h3> {{titulo}} </h3>
+        <h3> {{titulo}} </h3>
 
 
-    <span v-on:mouseover="scrollEsquerda()" v-on:mouseout="clearScroll()" class="handle handlePrev active">
-        <i class="fa fa-caret-left" aria-hidden="true"></i>
-    </span>
+        <span v-on:mouseover="scrollEsquerda()" v-on:mouseout="clearScroll()" class="handle handlePrev active">
+            <i class="fa fa-caret-left" aria-hidden="true"></i>
+        </span>
 
-    <div ref="scroller" class="row">
-        <div class="row__inner">
-            <filme v-for="filme in filmes" v-bind:key="filme.id" v-bind:titulo="filme.titulo" v-bind:imagem="filme.imagem"></filme>
+        <div ref="scroller" class="row">
+            <div class="row__inner">
+                <filme v-for="filme in filmes" v-bind:key="filme.id" v-bind:titulo="filme.titulo" v-bind:imagem="filme.imagem"></filme>
+            </div>
         </div>
-    </div>
 
-    <span v-on:mouseover="scrollDireita()" v-on:mouseout="clearScroll()" class="handle handleNext active">
-        <i class="fa fa-caret-right" aria-hidden="true"></i>
-    </span>
-</div>
+        <span v-on:mouseover="scrollDireita()" v-on:mouseout="clearScroll()" class="handle handleNext active">
+            <i class="fa fa-caret-right" aria-hidden="true"></i>
+        </span>
+    </div>
 
     
 </template>
